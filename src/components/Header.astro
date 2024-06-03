@@ -1,0 +1,13 @@
+---
+import Navigation from '../components/Navigation.astro';
+import Hamburger from '../components/Hamburger.astro';
+
+const { headline } = Astro.props;
+---
+<header>
+    <nav>
+        <Hamburger />
+        <Navigation />
+    </nav>
+    <h1>{headline}</h1>
+</header>

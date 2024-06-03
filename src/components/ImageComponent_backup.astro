@@ -1,0 +1,38 @@
+---
+import type { ImageMetadata } from 'astro';
+
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/*.{jpeg,jpg,png}');
+---
+<ul class="gallery">
+   {Object.keys(images).map((img) => <li class="gallery-item"><img src={img} /></li>)}
+</ul>
+
+<style>
+  ul {
+			width: 60%;
+			gap: 10px;
+			margin: 0 auto;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+
+			&:after {
+				content: '';
+				display: block;
+				flex-grow: 10;
+			}
+		}
+
+		li {
+			height: 25vh;
+			flex-grow: 1;
+			list-style-type: none
+		}
+
+		img {
+			max-height: 100%;
+			min-width: 25%;
+			object-fit: contain;
+			vertical-align: bottom;
+		}
+</style>

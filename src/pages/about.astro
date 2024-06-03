@@ -1,20 +1,26 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const pageTitle = "About Me";
+const identity = {
+  firstName: "Julia",
+  country: "Germany",
+  occupation: "artist",
+  hobbies: ["photography", "design", "painting"],
+};
+const skills = ["drawing", "painting", "photography"];
+
+const skillColor = "navy";
+const fontWeight = "bold";
+const textCase = "uppercase";
 
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<a href="/">Home</a>
-        <a href="/about/">About</a>
-		<a href="/blog">Blog</a>
-        <h1>About me</h1>
-		<p>My recent artworks</p>
-	</body>
-</html>
+<BaseLayout pageTitle={pageTitle}>
+    
+  <p>Hi, my name is Julia, I'm an artist based in Berlin.</p>
+  <p>I work in traditional drawing and painting techniques as well as in digital format.</p>
+  <p>My mission is to create human art.</p>
+  <p>My inspiration is the interactions of natural colours and shapes.</p>
+  <p>My favourite art period is XX century and I'm especially inspired by Bauhaus.</p>
+
+  </BaseLayout>
