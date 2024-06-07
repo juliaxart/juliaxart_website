@@ -1,26 +1,27 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'My First Blog Post'
-description: 'This is the first post of my new Astro blog.'
-pubDate: 2024-05-25
+title: 'Live model sketching'
+pubDate: 2024-06-03
+description: 'Why I love live model sketching and find it absolutely necessary for an artist.'
+author: 'Julia'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
-    alt: 'The full Astro logo.'
-tags: ["astro", "blogging", "learning in public", "community"]
+    url: '../../../0d418910-bf11-4322-963b-2a76785652a9_rw_1920.jpeg'
+    alt: 'Your image description.'
+tags: ["drawing", "sketching", "anatomy"]
 ---
-# My First Blog Post
+# Why live sketching is an important skill
 
+I put off just taking a pencil and sketching for way too long. I kept hearing how good sketching is for developing your art skill, but for some reason the simple act of taking a paper and a pencil was too easy to just avoid: "I'm not ready for that, I need to learn a bit more of anatomy and perspective", "It'll turn out shit anyway". And to both I can say "Yes!", yes, I need to learn more about the human body and other art basics, yes, my scetches will inevitably be ugly for a long period. But it's just something that I need to do if I want to progress.
+.
 
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
+## Here is what I learned from sketching from live regularly:
 
-## What I've accomplished
+1. **Patience**: I just stopped expecting progress to happen quickly. Accepting the fact that it's a long process helped me relax and focus on the effort instead of stressing about when I can finally see "beautiful" results.
 
-1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
+2. **Flexibility**: Even if you study your anatomy diligently, you'll notice how real humans are not what you see in the textbooks and schemes. Bodies are extremely diverse, and learning to see it is very important.
 
-2. **Making Pages**: I then learned how to make pages by creating new `.astro` files and placing them in the `src/pages/` folder.
+3. **Working through my limitations**: I can't keep stressing about my mistakes when the time is limited and sometimes the only choice is to accept the line the way it turned out and move on. Even when the result is not perfect, it's something that can tell a story in it's own unique way.
 
-3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
+## What's the best way to sketch?
 
-## What's next
-
-I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
+It can be challenging to find a place where you can sketch from life, so you can start by sketching in public places. 
